@@ -1,0 +1,130 @@
+.testimonial-slider .slick-slide > div:last-child {
+  margin-left: -60%;
+  margin-right: 60%;
+}
+
+.slider-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: #707386;
+  border-radius: 99999px;
+  z-index: 100;
+}
+
+.testimonial-slider .slider-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 99999px;
+  z-index: 100;
+}
+
+.testimonial-slider .slider-arrow i {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.slider-arrow.slick-prev {
+  left: -35px;
+}
+
+.slider-arrow.slick-next {
+  right: -35px;
+}
+
+.testimonial-slider .slider-arrow.slick-prev {
+  left: 40px;
+}
+
+.testimonial-slider .slider-arrow.slick-next {
+  right: 40px;
+}
+
+.slider-arrow::before {
+  display: none !important;
+}
+
+.slider-arrow > i {
+  font-size: 20px;
+  color: white;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  background: #707386;
+}
+
+.slide {
+  transform: scale(0.7);
+  transition: transform 0.5s;
+  opacity: 0.6;
+}
+
+.activeSlide {
+  transition: transform 0.5s;
+}
+
+.slideWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 1560px) {
+  .slider-arrow {
+    width: 50px;
+    height: 50px;
+  }
+
+  .testimonial-slider .slider-arrow {
+    width: 90px;
+    height: 90px;
+  }
+
+  .slider-arrow > i {
+    font-size: 30px;
+  }
+
+  .testimonial-slider .slider-arrow > i {
+    font-size: 50px;
+  }
+
+  .slider-arrow.slick-prev {
+    left: -60px;
+  }
+
+  .slider-arrow.slick-next {
+    right: -60px;
+  }
+
+  .testimonial-slider .slider-arrow.slick-prev {
+    left: 60px;
+  }
+
+  .testimonial-slider .slider-arrow.slick-next {
+    right: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonial-slider .slick-slide > div:last-child {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .testimonial-slider .slider-arrow.slick-prev {
+    left: -20px;
+  }
+
+  .testimonial-slider .slider-arrow.slick-next {
+    right: -20px;
+  }
+}

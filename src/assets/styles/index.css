@@ -1,0 +1,19 @@
+@import "../fonts/fonts.css";
+@import "./header.css";
+@import "./forms.css";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import "./slider.css";
+@import "./scrollbar.css";
+@import "./select.css";
+@import "./blog.css";
+@import "./pagination.css";
+@import "./pages/home.css";
+@import "./pages/about.css";
+@import "./pages/blog.css";
+@import "./pages/services.css";
+
+.popup .MuiPaper-root {
+  background: transparent !important;
+}

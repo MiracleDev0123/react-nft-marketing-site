@@ -1,0 +1,56 @@
+.hero {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(13, 18, 50, 0.68);
+}
+
+.hero-text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-text-shadow {
+  position: absolute;
+  top: 0;
+  left: 7px;
+  width: calc(100% + 7px);
+}
+
+.team-linkedin-icon {
+  width: 25px;
+}
+
+.team-section {
+  background: linear-gradient(180deg, #171c3b 0%, rgba(23, 28, 59, 0) 100%);
+}
+
+.about-background {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 80%;
+}
+
+@media (min-width: 1560px) {
+  .team-linkedin-icon {
+    width: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-width {
+    width: 20% !important;
+  }
+}

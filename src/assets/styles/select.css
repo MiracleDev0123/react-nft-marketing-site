@@ -1,0 +1,87 @@
+/* .select-container {
+
+} */
+
+.select__control {
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.11) !important;
+  box-shadow: none !important;
+  font-size: 12px;
+}
+
+.select__value-container {
+  padding: 11px 10px !important;
+  color: white !important;
+}
+
+.select__single-value {
+  color: white !important;
+}
+
+/* .select__indicators {
+    
+  } */
+
+.select__indicator-separator {
+  display: none;
+}
+
+.select__menu {
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: left;
+  background: rgba(25, 31, 67, 0.9) !important;
+  color: white !important;
+}
+/* 
+  .select__menu-list {
+  
+  } */
+
+.select__option {
+  cursor: pointer !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.select__option:hover,
+.select__option.selected {
+  background: #161938 !important;
+}
+
+.select__option--is-selected,
+.select__option--is-focused {
+  background: #101329 !important;
+}
+
+.select__indicator > svg {
+  fill: white !important;
+}
+
+.select__multi-value {
+  background: rgba(25, 31, 67, 0.85) !important;
+}
+
+.select__multi-value__label {
+  color: white !important;
+}
+
+.select__multi-value__remove:hover {
+  background-color: #161938 !important;
+  color: white !important;
+}
+
+@media (min-width: 1560px) {
+  .select__control {
+    font-size: 16px;
+    border-radius: 10px !important;
+  }
+
+  .select__value-container {
+    padding: 16px 10px !important;
+  }
+}

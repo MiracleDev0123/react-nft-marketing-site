@@ -1,0 +1,25 @@
+.blog-header {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  top: 0;
+  left: 0;
+  align-items: center;
+}
+
+.blog-header-title {
+  width: 53%;
+  padding-right: 30px;
+}
+
+.blog-detail-img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .blog-detail-img {
+    width: 60%;
+  }
+}
